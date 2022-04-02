@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "tcmcmod",
+  "version": "1.0.0",
+  "name": "TCMCmod",
+  "authors": [
+    "Administrator, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": "https://github.com/ClothCreators/Fabric-Generator-MCreator"
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cn.tangiblecraft.tcmcmod.TcmcmodMod"
+    ],
+    "client": [
+      "cn.tangiblecraft.tcmcmod.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*"
+  }
+}
